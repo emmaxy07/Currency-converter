@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center">Currency Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number"
+                        id="nairaInput" 
+                        class="form-control form-control-lg" 
+                        placeholder="Enter Naira...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-primary">
+                        <div class="card-block">
+                            <h4>Pounds:</h4>
+                            <div id="poundsOutput">  
+                            </div>
+                        </div>
+
+                        <div class="card bg-success">
+                            <div class="card-block">
+                                <h4>Dollars:</h4>
+                                <div id="dollarsOutput">
+                                </div>
+                            </div>
+
+                            <div class="card bg-danger">
+                                <div class="card-block">
+                                    <h4>Yuan:</h4>
+                                    <div id="yuanOutput">  
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
